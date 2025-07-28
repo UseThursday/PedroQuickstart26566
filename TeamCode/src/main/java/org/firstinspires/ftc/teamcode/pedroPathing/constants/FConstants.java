@@ -10,17 +10,17 @@ public class FConstants {
     static {
         FollowerConstants.localizers = Localizers.PINPOINT;
 
-        FollowerConstants.leftFrontMotorName = "LFMotor";
-        FollowerConstants.leftRearMotorName = "LBMotor";
-        FollowerConstants.rightFrontMotorName = "RFMotor";
-        FollowerConstants.rightRearMotorName = "RBMotor";
+        FollowerConstants.leftFrontMotorName = "LFMotor"; //02022024 control hub port 0
+        FollowerConstants.leftRearMotorName = "LBMotor"; //02022024 control hub port 1
+        FollowerConstants.rightFrontMotorName = "RFMotor"; //02022024 control hub port 2
+        FollowerConstants.rightRearMotorName = "RBMotor"; //02022024 control hub port 3
 
         FollowerConstants.leftFrontMotorDirection = DcMotorSimple.Direction.FORWARD;
         FollowerConstants.leftRearMotorDirection = DcMotorSimple.Direction.FORWARD;
         FollowerConstants.rightFrontMotorDirection = DcMotorSimple.Direction.REVERSE;
         FollowerConstants.rightRearMotorDirection = DcMotorSimple.Direction.REVERSE;
 
-        FollowerConstants.mass = 13; //in kg
+        FollowerConstants.mass = 14.0614; //in kg
 
         FollowerConstants.xMovement = 57.8741;
         FollowerConstants.yMovement = 52.295;

@@ -10,7 +10,7 @@ public class LConstants {
         PinpointConstants.forwardY = 1.1875;
         PinpointConstants.strafeX = 6.6875;
         PinpointConstants.distanceUnit = DistanceUnit.INCH;
-        PinpointConstants.hardwareMapName = "odo"; //make sure not port 0
+        PinpointConstants.hardwareMapName = "odo"; //expansion hub i2c port 1
         PinpointConstants.useYawScalar = false;
         PinpointConstants.yawScalar = 1.0;
         PinpointConstants.useCustomEncoderResolution = false;
